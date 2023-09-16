@@ -1,4 +1,4 @@
-<?
+<?php
 
 return [
     'login' => 'تسجيل الدخول',
@@ -9,4 +9,6 @@ return [
     'remember_me' => 'تذكرني',
     'confirm_password' => 'تأكيد كلمة المرور',
     'name' => 'الاسم',
+    'invalid_credentials' => 'بيانات الدخول غير صحيحة',
+    'logged_in_successfully' => 'تم تسجيل الدخول بنجاح',
 ];

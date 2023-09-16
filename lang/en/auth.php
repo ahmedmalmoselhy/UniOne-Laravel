@@ -1,4 +1,4 @@
-<?
+<?php
 
 return [
     'login' => 'Login',
@@ -9,4 +9,6 @@ return [
     'remember_me' => 'Remember me',
     'confirm_password' => 'Confirm password',
     'name' => 'Name',
+    'invalid_credentials' => 'Invalid credentials',
+    'logged_in_successfully' => 'Logged in successfully',
 ];
