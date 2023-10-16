@@ -7,6 +7,7 @@ UniOne is a platform that allows students to find and share notes, past papers, 
 This platform will be built on more than one framework, as a personal project and as a way to learn new technologies. The first version will be built using the Laravel framework, and more versions will be worked on after finalizing phase 01 of the system.
 
 ## Our main features
+
 - Registration and authorization.
 - Profile editing.
 - Search for notes, past papers, and other resources.
@@ -22,10 +23,13 @@ This platform will be built on more than one framework, as a personal project an
 - Allowing communication between universities.
 - University employees have access and can benefit from the system.
 
-## Development Team
+## Our Team
+
 - [Ahmed AlMoselhy](https://github.com/ahmedmalmoselhy)
+- [Ahmed Raslan](https://github.com/ahm3draslan)
 
 ## Technologies & Tools
+
 - Laravel
 - MySQL
 - PHP
@@ -33,9 +37,11 @@ This platform will be built on more than one framework, as a personal project an
 - Git
 
 ## Phases
+
 - To be added soon
 
 ## Contribution
+
 Please read [UniOne](https://github.com/ahmedmalmoselhy/UniOne)
 
 Thank you!
