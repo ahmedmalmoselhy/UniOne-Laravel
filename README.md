@@ -1,4 +1,4 @@
-# <p align="center">UniOne</p>
+# UniOne
 
 ## About UniOne
 
@@ -35,6 +35,7 @@ This platform will be built on more than one framework, as a personal project an
 ## Phases
 - To be added soon
 
-<p align="center">More details will be added soon</p>
+## Contribution
+Please read [UniOne](https://github.com/ahmedmalmoselhy/UniOne)
 
-<p align="center">Made with ❤️ by <a href="https://github.com/ahmedmalmoselhy">Ahmed AlMoselhy</a></p>
+Thank you!
