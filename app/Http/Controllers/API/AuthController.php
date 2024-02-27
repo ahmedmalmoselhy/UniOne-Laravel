@@ -50,4 +50,9 @@ class AuthController extends Controller
             return $this->errorResponse($e->getMessage(), 500);
         }
     }
+
+    protected function register ()
+    {
+
+    }
 }

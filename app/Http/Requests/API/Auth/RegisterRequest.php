@@ -2,10 +2,11 @@
 
 namespace App\Http\Requests\API\Auth;
 
+use App\Helpers\Constants;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
 
-class LoginRequest extends FormRequest
+class RegisterRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -23,8 +24,11 @@ class LoginRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'email' => 'required|email|exists:users,email',
-            'password' => 'required|string',
+            'first_name' => 'string|required|min:2|max:50',
+            'last_name' => 'string|required',
+            'email' => 'email|required|unique:users,email',
+            'password' => 'required|confirmed|min:8|max:255',
+            'type' => 'required|string|exists:' . implode(',', Constants::ALLOWED_USER_TYPES)
         ];
     }
 }
