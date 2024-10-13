@@ -11,4 +11,5 @@ return [
     'name' => 'Name',
     'invalid_credentials' => 'Invalid credentials',
     'logged_in_successfully' => 'Logged in successfully',
+    'logout_successfully' => 'Logged out successfully',
 ];

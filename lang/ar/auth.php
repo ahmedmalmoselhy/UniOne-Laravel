@@ -11,4 +11,5 @@ return [
     'name' => 'الاسم',
     'invalid_credentials' => 'بيانات الدخول غير صحيحة',
     'logged_in_successfully' => 'تم تسجيل الدخول بنجاح',
+    'logout_successfully' => 'تم تسجيل الخروج بنجاح',
 ];

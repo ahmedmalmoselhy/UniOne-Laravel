@@ -45,7 +45,7 @@ class AuthController extends Controller
     {
         try {
             Auth::logout();
-            return $this->successResponse(null, __('auth.logged_out_successfully'));
+            return $this->successResponse(null, __('auth.logout_successfully'));
         } catch (Exception $e) {
             return $this->errorResponse($e->getMessage(), 500);
         }
